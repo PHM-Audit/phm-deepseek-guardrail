@@ -1,0 +1,8 @@
+{"id": "S1_plain_stream", "verdict": "OK", "detail": "122 chunks, finish=stop", "extra": null, "n_chunks": 123, "elapsed_s": 1.19, "ts": "2026-10-12T11:27:28"}
+{"id": "S2_tool_stream", "verdict": "OK", "detail": "37 chunks, finish=tool_calls", "extra": "tool delta ok: idx={0}, name_msgs=1, args_valid=True, assembled={\"location\": \"Paris\"}", "n_chunks": 38, "elapsed_s": 0.84, "ts": "2026-10-12T11:27:29"}
+{"id": "S3_tool_multiturn_stream", "verdict": "ANOMALY", "detail": "stream error: HTTP Error 400: Bad Request", "ts": "2026-10-12T11:27:29"}
+{"id": "S4_json_stream", "verdict": "OK", "detail": "100 chunks, finish=stop", "extra": null, "n_chunks": 101, "elapsed_s": 1.62, "ts": "2026-10-12T11:27:31"}
+{"id": "S5_thinking_stream", "verdict": "OK", "detail": "102 chunks, finish=stop", "extra": null, "n_chunks": 103, "elapsed_s": 1.01, "ts": "2026-10-12T11:27:32"}
+{"id": "S6_usage_flag", "verdict": "OK", "detail": "58 chunks, finish=stop", "extra": null, "n_chunks": 59, "elapsed_s": 0.98, "ts": "2026-10-12T11:27:33"}
+{"id": "S7_thinking_no_mix", "verdict": "OK", "detail": "140 chunks, finish=stop", "extra": "thinking/content streams separated", "n_chunks": 141, "elapsed_s": 1.52, "ts": "2026-10-12T11:27:34"}
+{"id": "S3_tool_multiturn_stream_FIXED", "verdict": "OK", "detail": "leg1 finish=tool_calls, leg2 finish=stop, args_valid=True, final='Tokyo is currently **22\u00b0C and sunny**. \u2600\ufe0f'", "ts": "2026-10-12T11:29:10"}

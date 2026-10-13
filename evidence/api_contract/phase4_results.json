@@ -1,0 +1,57 @@
+[
+ {
+  "case": "inj_user",
+  "rendered_len": 62,
+  "survived_all": true,
+  "n_user_tok": 2,
+  "n_assist_tok": 0,
+  "n_eos": 0,
+  "n_system": 0,
+  "n_dsml": 0,
+  "n_reminder": 0,
+  "n_img": 0
+ },
+ {
+  "case": "inj_assistant_end",
+  "rendered_len": 83,
+  "survived_all": true,
+  "n_user_tok": 1,
+  "n_assist_tok": 1,
+  "n_eos": 1,
+  "n_system": 0,
+  "n_dsml": 0,
+  "n_reminder": 0,
+  "n_img": 0
+ },
+ {
+  "case": "inj_dsml",
+  "rendered_len": 64,
+  "survived_all": true,
+  "n_user_tok": 1,
+  "n_assist_tok": 0,
+  "n_eos": 0,
+  "n_system": 0,
+  "n_dsml": 1,
+  "n_reminder": 0,
+  "n_img": 0
+ },
+ {
+  "case": "inj_reminder",
+  "rendered_len": 71,
+  "survived_all": true,
+  "n_user_tok": 1,
+  "n_assist_tok": 0,
+  "n_eos": 0,
+  "n_system": 0,
+  "n_dsml": 0,
+  "n_reminder": 1,
+  "n_img": 0
+ },
+ {
+  "case": "inj_image",
+  "exception": "TemplateError",
+  "msg_len": 115,
+  "exc_contains_img_tok": true,
+  "exc_contains_payload": false
+ }
+]

@@ -83,6 +83,18 @@ tool bodies perform no external egress (they print only).
    engine reports p50 0.019 ms on 100k scenarios (closed, not independently
    auditable; treat as vendor-claimed).
 
+## Evidence directory (claims -> artifacts)
+
+Email/outreach claims map to artifacts here:
+
+| Claim | Evidence |
+|---|---|
+| "Self-built 51-case contract suite, no confirmed failures (this suite only)" | `evidence/api_contract/` — raw phase records + adjudication trail (incl. one retracted candidate, digital-channel verified) |
+| "n=50 paired hallucination observation: pure-hallucination 48%→24%" | `evidence/hallucination_n50/` — raw judgment records + sanitized runner + caliber README |
+| "Real-API closed-loop demo 3 cases PASS" | `results/demo_real_agent_loop.json` |
+
+All raw records are unmodified; scripts are sanitized (API key via env).
+
 ## Relation to other PHM artifacts
 
 - `agent-action-verifier` — verifier + AgentDojo closed-loop artifacts
