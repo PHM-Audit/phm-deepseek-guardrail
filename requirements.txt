@@ -1,0 +1,2 @@
+deepseek-api-key
+openai-agents>=0.23.1
